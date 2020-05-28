@@ -1,0 +1,22 @@
+.secondnavbarcolor {
+    background-color: rgb(12, 12, 56);
+    position: fixed;
+    z-index: 1;
+    transition: 1s;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titlecard {
+    font-size: 30px;
+    color: orangered;
+}
+
+.formcolor {
+    background-color: rgb(228, 223, 222);
+}
