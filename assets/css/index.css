@@ -20,3 +20,8 @@ body {
 .formcolor {
     background-color: rgb(228, 223, 222);
 }
+
+.iconsbar {
+    font-size: 40px;
+    color: rgb(105, 105, 236);
+}
