@@ -1,15 +1,15 @@
 .secondnavbarcolor {
-    background-color: rgb(12, 12, 56);
+    background-color: rgb(231, 146, 48);
     position: fixed;
     z-index: 1;
     transition: 1s;
     width: 100%;
-    color: white;
     text-decoration: none;
+    box-shadow: brown;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .titlecard {
@@ -18,10 +18,15 @@ body {
 }
 
 .formcolor {
-    background-color: rgb(228, 223, 222);
+    background-color: rgb(235, 183, 134);
 }
 
 .iconsbar {
     font-size: 40px;
     color: rgb(105, 105, 236);
+}
+
+.cardshadow {
+    box-shadow: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }

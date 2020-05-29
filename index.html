@@ -35,8 +35,10 @@
                 <img src="./assets/image/logo.PNG" width="120px" height="70px" />
             </p>
 
-
-            <div className="collapse navbar-collapse w-100 " id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-list"></i>
+            </button>
+            <div style="margin-left: 30%;" class="collapse navbar-collapse w-100 text-xl-right" id="navbarSupportedContent">
                 <ul class="nav">
                     <li class="nav-item  py-3">
                         <a class="text-decoration-none h6 navbar-text  py-2 px-4 " href="#Enjeux">Enjeux</a>
@@ -154,11 +156,12 @@
 
             <br/>
             <section id="demo">
-                <div class="row text-center">
+                <div class="row text-center cardshadow">
                     <div class="col-sm-12 shadow">
                         <h1 class="titlecard font-weight-bolder">Video Demo</h1>
                     </div>
                 </div>
+                <br/><br/>
             </section>
             <div class="row">
                 <div class="col-sm-12">
@@ -169,8 +172,8 @@
             </div>
             <br/>
             <div class="row">
-                <br/>
-                <div class="col-sm-12 shadow text-center">
+                <br/><br/><br/>
+                <div class="col-sm-12 shadow text-center cardshadow">
                     <h1 class="titlecard font-weight-bolder">Les avantages</h1>
                 </div>
             </div>
@@ -229,21 +232,21 @@
                         <br/>
                         <h1 class="titlecard font-weight-bolder">Contact</h1>
                         <br/>
-                        <form class="form-group">
+                        <form onsubmit="sent()" class="form-group">
                             <div class="w-100">
-                                <input type="email" class=" form-control" placeholder="Email" />
+                                <input id="email" type="email" class=" form-control" placeholder="Email" />
                             </div>
                             <br/>
                             <div>
-                                <input type="text" class="form-control" placeholder="Sujet" />
+                                <input id="sujet" type="text" class="form-control" placeholder="Sujet" />
                             </div>
                             <br/>
                             <div>
-                                <textarea class="form-control" rows="4" placeholder="message"></textarea>
+                                <textarea id="message" class="form-control" rows="4" placeholder="message"></textarea>
                             </div>
                             <br/>
                             <div>
-                                <input class="btn btn-outline-success" value="Envoyer" />
+                                <input type="submit" class="btn btn-outline-success w-50" value="Envoyer" />
                             </div>
                         </form>
                     </div>
@@ -251,6 +254,7 @@
                 </div>
             </section>
             <br/><br/>
+            <hr/><br/>
             <footer class="text-center w-100">
                 <div class="row w-100">
                     <div class="col-sm-8 text-left p-3">
@@ -264,7 +268,7 @@
                 </div>
                 <div class="row w-100">
                     <div class="col-sm-12">
-                        <p>2020 All right reserved - By <strong><i class="fas fa-creative-commons"></i>Simpower</strong></p>
+                        <p>2020 All right reserved - By <strong>Simpower</strong></p>
                     </div>
                 </div>
             </footer>
